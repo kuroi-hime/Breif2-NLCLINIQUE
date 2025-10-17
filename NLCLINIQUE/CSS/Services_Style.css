@@ -112,6 +112,7 @@ header nav form input {
 header nav form input:focus {
     border: none;
     outline: none;
+    color: white;
 }
 
 header nav form input::placeholder {

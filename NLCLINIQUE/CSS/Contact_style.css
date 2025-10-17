@@ -117,6 +117,7 @@ header div form input {
 header div form input:focus {
     border: none;
     outline: none;
+    color: white;
 }
 
 header div form input::placeholder {
