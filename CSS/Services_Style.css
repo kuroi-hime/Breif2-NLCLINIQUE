@@ -9,10 +9,13 @@
 /*********************************************** Style the Header **********************************************/
 
 header {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 9.625rem;
+    height: 154px;
     background: url("../IMAGES/backround1.png") no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -247,8 +250,7 @@ section > div > div > div:first-child > span:last-child p {
 .service > div:last-child > span > div > div> div:first-child > span {
     display: flex;
     gap: 0.625rem;
-    background-color: #FF6F61;
-    opacity: 18%;
+    background-color: rgba(255, 111, 97, 0.18);
     padding: 0.9375rem;
     border-radius: 1.25rem;
 }
@@ -256,6 +258,7 @@ section > div > div > div:first-child > span:last-child p {
 .service > div:last-child > span > div > div> div:first-child > span > img {
     height: 3.125rem;
     width: 3.125rem;
+    /* opacity: none !important; */
 }
 
 .service > div:last-child > span > div > div> div:first-child > p {
